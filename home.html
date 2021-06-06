@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tree Planet Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="from-Box">
+            <a href="#">TREE PLANET</a>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">ACCOUNT</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementId('login-form').style.display='block'" style="width:auto;">Login</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="login-from" class="login-page">
+            <div class="form-box1">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class='toggle-btn'>Log In</button>
+                    <button type="button" onclick="register()" class='toggle-btn'>Register</button>
+
+                </div>
+                <form id='login' class='input-group-login'>
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <button type="checkbox" class="check-box"><span>Remember password</span>
+                        <input type="submit"class="submit-btn">Log in</button>
+                </form>
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <input type="password" class="input-field" placeholder="Confirm password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span><button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
